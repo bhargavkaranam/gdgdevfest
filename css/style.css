@@ -1,0 +1,162 @@
+html,body
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.container
+{
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+}
+#container_1
+{
+	
+	background-size: contain;
+}
+.section1
+{
+	height: 70%;
+	background: url(../images/home.png);
+	background-position: center top;
+	background-attachment: fixed;
+	width: 100%;
+	position: relative;
+}
+.center
+{
+	position: absolute;
+    top: 40%;
+    left: 17%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 200px;
+    height: 100px;
+
+}
+.section1 img
+{
+	position: relative;
+	left: 15%;
+}
+.section2
+{
+	height: 30%;
+	width: 100%;
+	background:#FF9800;
+	
+}
+.section2 div
+{
+	position: relative;
+    top: 30%;
+    left: 30%;
+    /*margin-top: -50px;*/
+    margin-left: -50px;
+    overflow-x: hidden;
+    width: 700px;
+    height: 100px;
+
+}
+.navbar
+{
+	height: 40px;
+	box-sizing: border-box;
+	color:#fff;
+	padding-top: 15px;
+}
+.navbar div
+{
+	float: right;
+}
+.navbar ul 
+{
+	padding: 0;
+	margin: 0;	
+}
+.navbar ul li
+{
+	list-style-type: none;
+	float: left;
+}
+.navbar ul li a
+{
+	text-decoration: none;
+	margin-right: 30px;
+	color: #FFFFFF;
+	font-family: 'Roboto','Noto Serif';
+	cursor: pointer;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.navbar ul li a:hover
+{
+	border-bottom: solid 1px #FFFFFF;
+}
+.register
+{
+	height: 40px;
+	width: 100px;
+	background:rgb(217, 73, 68);
+	border:none;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	box-shadow: 1px 1px 1px black;
+	cursor: pointer;
+}
+.info li
+{
+	list-style-type: none;
+	float: left;
+	font-family: 'Roboto';
+	margin-right: 170px;
+}
+.info li h1
+{
+	
+	font-weight: 200;
+	margin: 0;
+	padding: 0;
+	font-size: 2.7em;
+}
+#container_2
+{
+	background:url(https://gdgmanipal.in/images/bg1.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.about-container
+{
+	height: 460px;
+	width: 600px;
+	background: #FAFAFA;
+	opacity: 0.8;
+	top: 20%;
+	position: relative;
+	margin-top: -50px;
+	float: left;
+	vertical-align: middle;
+	box-sizing: border-box;
+	padding:0 20px 0 20px;
+	left:30%;
+	margin-left: -50px;
+}
+#container_3 h2
+{
+	font-family: 'Roboto','Nato';
+}
+.speaker-image
+{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+.speaker-info
+{
+	font-family: 'Roboto';
+}
